@@ -4,6 +4,9 @@
 @import "components/_pills";
 @import "components/_typography";
 @import "components/_charts";
+@import "components/_panels";
+@import "components/_tables";
+@import "components/_buttons";
 
 body {
   background: @primary-background;
@@ -51,4 +54,19 @@ footer {
   padding-top: (@padding * 2);
   border-top: @border-size @border-color @border-type;
   color: @light-text;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-right: @padding;
+    padding-left: @padding;
+  }
+
+  .navbar-form {
+    display: none;
+  }
+
+  ul.nav.navbar-nav.navbar-right {
+    display: none;
+  }
 }
