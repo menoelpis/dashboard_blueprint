@@ -1,5 +1,9 @@
 @import "components/_variables";
 @import "components/_navbar";
+@import "components/_navs";
+@import "components/_pills";
+@import "components/_typography";
+@import "components/_charts";
 
 body {
   background: @primary-background;
@@ -25,6 +29,20 @@ p {
 }
 hr {
 
+}
+
+li.navigation-header {
+  color: @blue1;
+  text-transform: uppercase;
+  font-size: (@font-size - 0.25);
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: @margin 0;
+  padding-left: 15px;
+}
+
+.charts {
+  text-align: center;
 }
 
 footer {

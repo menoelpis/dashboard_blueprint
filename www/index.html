@@ -44,12 +44,50 @@
     </div>
 </nav>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-        <div class="col-lg-12">
-            <h1>Bootstrap Boilerplate</h1>
-            <p>This is a Bootstrap starter template built with Harp, Less, CSS, EJS, and HTML</p>
-            <p>Made in Vancouver by <a href="http://twitter.com/cardeo">@cardeo</a></p>
+        <div class="col-lg-3">
+            <div class="collapse navbar-collapse" id="bootboard-nav">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="navigation-header">Control Panel</li>
+                    <li class="active"><a href="#">Dashboard</a></li>
+                    <li><a href="#">Applications</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Discussion</a></li>
+                    <li><a href="#">Users</a></li>
+                    <li class="navigation-header">Account</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h3>Charts <small>A quick view of your website stats</small></h3>
+                    </div>
+                    <div class="charts">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="ct-chart-one ct-perfect-fourth"></div>
+                                Impressions
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="ct-chart-two ct-perfect-fourth"></div>
+                                Clicks
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="ct-chart-three ct-perfect-fourth"></div>
+                                Sales
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -70,7 +108,7 @@
     </div>
 </footer>
 <!-- javascript //-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min. js"></script>
+<script src="js/jquery-1.12.3.min.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/chartist.min.js" type="text/javascript"></script>
 <script src="js/bootboard-charts.js" type="text/javascript"></script>
