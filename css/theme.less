@@ -1,9 +1,5 @@
 @import "components/_variables";
-@import "components/_badges.less";
-@import "components/_typography.less";
-@import "components/_tables.less";
-@import "components/_alerts.less";
-@import "components/_form-validation.less";
+@import "components/_navbar";
 
 body {
   background: @primary-background;
@@ -31,4 +27,10 @@ hr {
 
 }
 
-/* 02. LAYOUT Styles specific to your layout or website */
+footer {
+  margin-top: (@padding * 6);
+  padding-bottom: (@padding * 2);
+  padding-top: (@padding * 2);
+  border-top: @border-size @border-color @border-type;
+  color: @light-text;
+}
